@@ -31,7 +31,7 @@ const handleSubmit = async () => {
     Cookies.set('access_token', access_token, { expires: 7 });
 
 
-    navigate('/dashboard')
+    navigate('/')
   }
 
 }
